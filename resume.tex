@@ -1,0 +1,106 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=0.5in,right=0.5in,top=0.7in,bottom=0.7in]{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+
+% Define colors
+\definecolor{darkblue}{RGB}{26,13,171}
+
+% Define section formatting
+\titleformat{\section}{\Large\bfseries\color{darkblue}}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{1em}{0.5em}
+
+% Define subsection formatting
+\titleformat{\subsection}{\color{darkblue}}{}{0em}{}
+\titlespacing{\subsection}{0pt}{0.5em}{0.5em}
+
+% Define URL formatting
+\makeatletter
+\def\url@myformat#1{\color{darkblue}{\texttt{\url{#1}}}}
+\makeatother
+\urlstyle{myformat}
+
+% Remove section numbering
+\setcounter{secnumdepth}{0}
+
+% Adjust font
+\renewcommand{\rmdefault}{phv}
+\renewcommand{\sfdefault}{phv}
+
+% Set line spacing
+\renewcommand{\baselinestretch}{1.2}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge Syed Mohsin Bukhari} \\
+    \vspace{0.5em}
+    \small
+    \textit{Embedded and Software Engineer} \\
+    \vspace{1em}
+    \begin{tabular}{p{10cm}p{6cm}}
+        \textbf{Address:} Srinagar, Jammu \& Kashmir, India & \textbf{Phone:} +918491000275 \\
+        \textbf{Email:} \url{smayour82@gmail.com} & \textbf{LinkedIn:}\url{www.linkedin.com/in/syed-mohsin-bukhari} \\
+    \end{tabular}
+\end{center}
+
+\section{OBJECTIVE}
+Seeking a challenging position as an Embedded and Software Engineer where I can contribute my skills in electronics and programming to drive innovation and achieve remarkable results.
+
+\section{EXPERIENCE}
+\textbf{Amargarh Grid Station} \hfill \textit{Dec 2022 - Feb 2023} \\
+Intern
+
+\section{EDUCATION}
+\textbf{Islamic University of Science \& Technology, Pulwama} \\
+Bachelor of Technology - BTech \hfill \textit{Sep 2019 - Jul 2023} \\
+\textbf{Grade:} A
+
+\section{SKILLS}
+\begin{minipage}{0.5\textwidth}
+    \textbf{Programming:}
+    \begin{itemize}[left=0pt]
+        \item MATLAB
+        \item Python
+        \item Embedded C
+        \item HTML, CSS, JavaScript
+    \end{itemize}
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
+    \textbf{Technologies:}
+    \begin{itemize}[left=0pt]
+        \item VHDL
+        \item IoT
+        \item Computer Vision
+        \item Machine Learning, Artificial Intelligence 
+    \end{itemize}
+\end{minipage}\\
+
+\textbf{Tools:} KiCAD, Arduino, Multisim, Xilinx Vivado, TinkerCAD, Raspberry Pi, LabVIEW
+
+\section{PROJECTS}
+\textbf{Personal Portfolio website} \\
+\url{https://mayourbukhari.github.io/Personal-Portfolio/} \hfill \textit{Oct 2023} \\
+Discover my professional journey on my portfolio website.
+
+\textbf{Fruit Grading \& Sorting System} \hfill \textit{Jan 2022} \\
+Automatic grading \& sorting of fruits \& dry fruits.
+
+\textbf{Traffic Control System} \hfill \textit{Aug 2023} \\
+Intelligent traffic signal regulation using IR sensors.
+
+\textbf{Visionary Fruit Sort} \\
+\url{https://visionaryfruitsort.vercel.app/} \hfill \textit{Jul 2023} \\
+Explore the site to experience the seamless integration of design and functionality.
+
+\textbf{Keyless Door Lock System} \hfill \textit{Jul 2022} \\
+Arduino-based with keypad \& LCD.
+
+\textbf{Gas Detection System} \hfill \textit{Aug 2022} \\
+Detects gas leaks \& shuts off the regulator.
+
+\textbf{Automatic Street Light Control} \hfill \textit{May 2022} \\
+Smart bulb control using LDR.
+\end{document}
