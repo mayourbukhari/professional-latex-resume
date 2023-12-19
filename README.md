@@ -25,6 +25,17 @@ Feel free to modify the template to suit your preferences. You can adjust fonts,
 ## Preview
 [View a PDF preview of the template](resume.pdf)
 
+### Get in Touch 
+Your feedback means the world to me! Reach out via
+
+[![Youtube](https://img.shields.io/badge/Youtube-Subscribe-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@PossibleCode)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/syed-mohsin-bukhari/)
+[![Mail](https://img.shields.io/badge/Mail-Contact-informational?style=for-the-badge&logo=gmail)](mailto:smayour82@gmail.com)
+
+Let's connect, collaborate, and create something extraordinary.
+
+Thank you for visiting, and enjoy your journey through my digital realm! 🌐
+
 ## License
 This template is open-sourced under the [MIT License](LICENSE). Feel free to use, modify, and distribute it.
 
